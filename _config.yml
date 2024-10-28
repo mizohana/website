@@ -21,10 +21,8 @@
 title: mizohana
 email: contact@mizohana.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Mizohana is an innovative software consulting company, expertly blending
-  emerging tech with industry needs to boost innovation and efficiency.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://mizohana.com" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
@@ -32,6 +30,9 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 theme: minima
 plugins:
   - jekyll-feed
+sass:
+    sass_dir: _sass
+    style: compressed
 
 # Exclude from processing.
 # The following items will not be processed, by default.

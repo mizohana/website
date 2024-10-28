@@ -1,0 +1,11 @@
+a {
+    color: #BA1B17 !important;
+
+    &:visited {
+      color: #BA1B17 !important;
+    }
+
+    &:hover {
+      color: darken(#BA1B17, 15%) !important;
+    }
+  }
